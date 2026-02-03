@@ -1,0 +1,1140 @@
+15:51:09.461 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+15:51:11.227 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+15:52:28.293 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+15:52:30.049 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+15:52:55.038 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+15:52:56.844 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+15:53:22.602 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+15:53:24.363 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+17:00:00.762 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+17:00:02.519 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+17:23:36.946 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+17:23:38.250 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+17:23:38.250 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+17:23:38.823 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+17:23:38.883 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+17:24:08.163 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+17:24:09.379 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+17:24:09.379 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+17:24:09.916 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+17:24:09.976 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+17:30:07.744 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+17:30:08.934 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+17:30:08.934 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+17:30:09.480 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+17:30:09.538 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+17:58:05.625 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+17:58:06.788 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+17:58:06.788 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+17:58:07.304 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+17:58:07.362 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+18:09:12.673 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+18:09:13.852 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+18:09:13.853 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+18:09:14.387 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+18:09:14.450 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+18:26:55.289 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+18:26:56.441 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+18:26:56.441 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+18:26:56.966 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+18:26:57.027 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+19:29:39.625 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+19:29:40.797 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+19:29:40.798 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+19:29:41.330 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+19:29:41.390 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+19:58:11.779 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+19:58:12.998 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+19:58:12.999 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+19:58:13.522 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+19:58:13.579 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+20:02:44.330 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+20:02:45.502 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+20:02:45.502 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+20:02:46.044 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+20:02:46.104 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+20:24:37.969 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+20:24:39.154 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+20:24:39.155 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+20:24:39.689 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+20:24:39.746 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+20:32:57.317 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+20:32:57.898 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+20:32:57.899 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+20:34:52.800 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+20:34:54.285 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+20:34:54.286 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+20:34:55.005 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+20:34:55.069 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+21:21:22.876 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+21:21:23.833 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:23.833 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+21:21:24.370 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+21:21:24.425 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.425 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3Njk4NzQ2ODQsImV4cCI6MTc2OTg3ODI4NH0._NDVmagvObEtVP12sg5GaukmLz9vxa8Lq01dU6jeuxE
+Accept=*/*
+21:21:24.498 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+21:21:24.501 [main] INFO  Listeners.TestListeners - Test Passed: fetchProfileTest
+21:21:24.504 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+21:21:24.513 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.513 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+21:21:24.597 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+21:21:24.636 [main] INFO  Listeners.TestListeners - Test Passed: forgotPasswordTest
+21:21:24.638 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+21:21:24.645 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.645 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+21:21:24.795 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+21:21:24.800 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.800 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3Njk4NzQ2ODQsImV4cCI6MTc2OTg3ODI4NH0._NDVmagvObEtVP12sg5GaukmLz9vxa8Lq01dU6jeuxE
+Accept=*/*
+21:21:24.862 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+21:21:24.871 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.871 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3Njk4NzQ2ODQsImV4cCI6MTc2OTg3ODI4NH0._NDVmagvObEtVP12sg5GaukmLz9vxa8Lq01dU6jeuxE
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3Njk4NzQ2ODQsImV4cCI6MTc2OTg3ODI4NH0._NDVmagvObEtVP12sg5GaukmLz9vxa8Lq01dU6jeuxE
+Content-Type=application/json
+21:21:24.936 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+21:21:24.939 [main] INFO  Listeners.TestListeners - Test Passed: patchProfileTest
+21:21:24.941 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+21:21:24.949 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:24.950 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+21:21:25.094 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+21:21:25.108 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+21:21:25.111 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+21:21:25.125 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+21:21:25.126 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+21:21:25.181 [main] INFO  filters.LoggingFilter - STATUS CODE:400
+21:21:25.188 [main] INFO  Listeners.TestListeners - Test Passed: createAccountTest
+10:42:12.375 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+10:42:14.427 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:14.428 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:42:15.207 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:42:15.307 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.308 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTU1MjcsImV4cCI6MTc3MDA5OTEyN30.LuKPJIyKc9I_WOltggvmlF18AL-l9kTYIxfryKrl7sI
+Accept=*/*
+10:42:15.421 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:42:15.427 [main] INFO  Listeners.TestListeners - Test Passed: fetchProfileTest
+10:42:15.431 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+10:42:15.446 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.446 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:42:15.530 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+10:42:15.570 [main] INFO  Listeners.TestListeners - Test Passed: forgotPasswordTest
+10:42:15.571 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+10:42:15.578 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.579 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:42:15.752 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:42:15.761 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.761 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTU1MjgsImV4cCI6MTc3MDA5OTEyOH0.zLW3_4osON9DHokRQYRi9cIZf09KoSgt7P2-MmjoiXM
+Accept=*/*
+10:42:15.862 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:42:15.877 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.877 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTU1MjgsImV4cCI6MTc3MDA5OTEyOH0.zLW3_4osON9DHokRQYRi9cIZf09KoSgt7P2-MmjoiXM
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTU1MjgsImV4cCI6MTc3MDA5OTEyOH0.zLW3_4osON9DHokRQYRi9cIZf09KoSgt7P2-MmjoiXM
+Content-Type=application/json
+10:42:15.983 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+10:42:15.984 [main] INFO  Listeners.TestListeners - Test Passed: patchProfileTest
+10:42:15.985 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:42:15.992 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:15.992 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:42:16.157 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:42:16.162 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+10:42:16.164 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+10:42:16.177 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:42:16.177 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:42:16.247 [main] INFO  filters.LoggingFilter - STATUS CODE:400
+10:42:16.259 [main] INFO  Listeners.TestListeners - Test Passed: createAccountTest
+10:44:00.104 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:44:02.127 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:44:02.127 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:44:03.133 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:44:03.237 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+10:56:47.066 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:56:47.778 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+10:56:47.779 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+10:57:08.624 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:57:09.192 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+10:57:09.193 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+10:57:45.034 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:57:45.604 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+10:57:45.604 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+10:58:56.139 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+10:58:57.238 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+10:58:57.238 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+10:58:58.020 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+10:58:58.069 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+11:01:01.801 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+11:01:02.704 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:02.705 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+11:01:03.203 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+11:01:03.265 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.265 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTY2NTUsImV4cCI6MTc3MDEwMDI1NX0.rsP-Sj_Lz9Bembxr0yfXDkJMSYLTr_nESZurxKV2vfI
+Accept=*/*
+11:01:03.355 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+11:01:03.362 [main] INFO  Listeners.TestListeners - Test Passed: fetchProfileTest
+11:01:03.368 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+11:01:03.378 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.378 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+11:01:03.461 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+11:01:03.483 [main] INFO  Listeners.TestListeners - Test Passed: forgotPasswordTest
+11:01:03.484 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+11:01:03.489 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.490 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+11:01:03.666 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+11:01:03.672 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.672 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTY2NTYsImV4cCI6MTc3MDEwMDI1Nn0.SaRCtnvZ-bP8dytE8ZQ8bqX_4fu6D2knT40mgGWsGF0
+Accept=*/*
+11:01:03.745 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+11:01:03.757 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.758 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTY2NTYsImV4cCI6MTc3MDEwMDI1Nn0.SaRCtnvZ-bP8dytE8ZQ8bqX_4fu6D2knT40mgGWsGF0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAwOTY2NTYsImV4cCI6MTc3MDEwMDI1Nn0.SaRCtnvZ-bP8dytE8ZQ8bqX_4fu6D2knT40mgGWsGF0
+Content-Type=application/json
+11:01:03.836 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+11:01:03.838 [main] INFO  Listeners.TestListeners - Test Passed: patchProfileTest
+11:01:03.840 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+11:01:03.850 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:03.851 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+11:01:04.022 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+11:01:04.026 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+11:01:04.027 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+11:01:04.047 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:01:04.047 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+11:01:04.114 [main] INFO  filters.LoggingFilter - STATUS CODE:400
+11:01:04.121 [main] INFO  Listeners.TestListeners - Test Passed: createAccountTest
+16:38:48.141 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+16:38:48.927 [main] ERROR Listeners.TestListeners - Test Failed: fetchProfileTest
+16:38:48.930 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.GetProfileRequestTest.fetchProfileTest(GetProfileRequestTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:38:48.944 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+16:38:48.959 [main] ERROR Listeners.TestListeners - Test Failed: forgotPasswordTest
+16:38:48.959 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.forgotPassword(AuthService.java:36)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.ForgotPasswordTest.forgotPasswordTest(ForgotPasswordTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:38:48.962 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+16:38:48.974 [main] ERROR Listeners.TestListeners - Test Failed: patchProfileTest
+16:38:48.975 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.UpdateProfileTest.patchProfileTest(UpdateProfileTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:38:48.978 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:38:48.986 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:38:48.986 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:38:48.989 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+16:38:48.998 [main] ERROR Listeners.TestListeners - Test Failed: createAccountTest
+16:38:48.999 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.signUp(AuthService.java:26)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.AccountCreationTest.createAccountTest(AccountCreationTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:04.318 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+16:39:04.894 [main] ERROR Listeners.TestListeners - Test Failed: fetchProfileTest
+16:39:04.895 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.GetProfileRequestTest.fetchProfileTest(GetProfileRequestTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:04.899 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+16:39:04.905 [main] ERROR Listeners.TestListeners - Test Failed: forgotPasswordTest
+16:39:04.905 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.forgotPassword(AuthService.java:36)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.ForgotPasswordTest.forgotPasswordTest(ForgotPasswordTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:04.907 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+16:39:04.912 [main] ERROR Listeners.TestListeners - Test Failed: patchProfileTest
+16:39:04.912 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.UpdateProfileTest.patchProfileTest(UpdateProfileTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:04.913 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:39:04.917 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:39:04.918 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:04.919 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+16:39:04.925 [main] ERROR Listeners.TestListeners - Test Failed: createAccountTest
+16:39:04.925 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.signUp(AuthService.java:26)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.AccountCreationTest.createAccountTest(AccountCreationTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:29.491 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+16:39:30.085 [main] ERROR Listeners.TestListeners - Test Failed: fetchProfileTest
+16:39:30.086 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.GetProfileRequestTest.fetchProfileTest(GetProfileRequestTest.java:22)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:30.090 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+16:39:30.096 [main] ERROR Listeners.TestListeners - Test Failed: forgotPasswordTest
+16:39:30.096 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.forgotPassword(AuthService.java:36)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.ForgotPasswordTest.forgotPasswordTest(ForgotPasswordTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:30.098 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+16:39:30.106 [main] ERROR Listeners.TestListeners - Test Failed: patchProfileTest
+16:39:30.106 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.UpdateProfileTest.patchProfileTest(UpdateProfileTest.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:30.108 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:39:30.114 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:39:30.114 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:30.117 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+16:39:30.125 [main] ERROR Listeners.TestListeners - Test Failed: createAccountTest
+16:39:30.125 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.signUp(AuthService.java:26)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.AccountCreationTest.createAccountTest(AccountCreationTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:39:54.695 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:39:55.288 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:39:55.289 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:40:02.208 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:40:02.789 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:40:02.790 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:40:38.925 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:40:39.517 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:40:39.518 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:42:29.003 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:42:29.585 [main] ERROR Listeners.TestListeners - Test Failed: loginTest
+16:42:29.586 [main] ERROR Listeners.TestListeners - Exception: 
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.mapping.ObjectMapping.serialize(ObjectMapping.groovy:174)
+	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
+	at io.restassured.internal.RequestSpecificationImpl.body(RequestSpecificationImpl.groovy:857)
+	at BaseService.BaseService.postRequest(BaseService.java:40)
+	at BaseService.AuthService.login(AuthService.java:19)
+	at DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest.loginTest(LoginAPITest.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+16:43:26.071 [main] INFO  Listeners.TestListeners - Test Started: fetchProfileTest
+16:43:27.075 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:27.076 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+16:43:27.634 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+16:43:27.696 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:27.696 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAxMTcyMDcsImV4cCI6MTc3MDEyMDgwN30.iMxJ16RlULYV6WmTnneVDVDbSHlP9nkVC0tvE6GfEhw
+Accept=*/*
+16:43:27.792 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+16:43:27.814 [main] INFO  Listeners.TestListeners - Test Passed: fetchProfileTest
+16:43:27.826 [main] INFO  Listeners.TestListeners - Test Started: forgotPasswordTest
+16:43:27.842 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:27.842 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+16:43:27.936 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+16:43:27.990 [main] INFO  Listeners.TestListeners - Test Passed: forgotPasswordTest
+16:43:27.991 [main] INFO  Listeners.TestListeners - Test Started: patchProfileTest
+16:43:27.995 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:27.995 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+16:43:28.153 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+16:43:28.172 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:28.173 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAxMTcyMDgsImV4cCI6MTc3MDEyMDgwOH0.6UnCDR3YIkMCBsmfia14Zqi8KAWFmFO4Twk7rsOjKrI
+Accept=*/*
+16:43:28.252 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+16:43:28.264 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:28.264 [main] INFO  filters.LoggingFilter - BASE Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAxMTcyMDgsImV4cCI6MTc3MDEyMDgwOH0.6UnCDR3YIkMCBsmfia14Zqi8KAWFmFO4Twk7rsOjKrI
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLb21hbHAiLCJpYXQiOjE3NzAxMTcyMDgsImV4cCI6MTc3MDEyMDgwOH0.6UnCDR3YIkMCBsmfia14Zqi8KAWFmFO4Twk7rsOjKrI
+Content-Type=application/json
+16:43:28.351 [main] INFO  filters.LoggingFilter - STATUS CODE:500
+16:43:28.354 [main] INFO  Listeners.TestListeners - Test Passed: patchProfileTest
+16:43:28.355 [main] INFO  Listeners.TestListeners - Test Started: loginTest
+16:43:28.363 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:28.364 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+16:43:28.528 [main] INFO  filters.LoggingFilter - STATUS CODE:200
+16:43:28.537 [main] INFO  Listeners.TestListeners - Test Passed: loginTest
+16:43:28.540 [main] INFO  Listeners.TestListeners - Test Started: createAccountTest
+16:43:28.551 [main] INFO  filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:43:28.552 [main] INFO  filters.LoggingFilter - BASE Header:Accept=*/*
+Content-Type=application/json
+16:43:28.624 [main] INFO  filters.LoggingFilter - STATUS CODE:400
+16:43:28.665 [main] INFO  Listeners.TestListeners - Test Passed: createAccountTest

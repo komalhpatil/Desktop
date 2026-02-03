@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="DemoRestassuredAPITest.DemoRestassuredAPITest.GetProfileRequestTest"/>
+      <class name="DemoRestassuredAPITest.DemoRestassuredAPITest.ForgotPasswordTest"/>
+      <class name="DemoRestassuredAPITest.DemoRestassuredAPITest.UpdateProfileTest"/>
+      <class name="DemoRestassuredAPITest.DemoRestassuredAPITest.LoginAPITest"/>
+      <class name="DemoRestassuredAPITest.DemoRestassuredAPITest.AccountCreationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
